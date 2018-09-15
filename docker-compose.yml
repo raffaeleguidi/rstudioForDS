@@ -1,0 +1,11 @@
+version: '2'
+services:
+  rstudio:
+    image: raffaeleguidi/rstudio
+    build: .
+    hostname: rstudio
+    environment:
+      PASSWORD: notrstudio
+      ROOT: 'TRUE'
+    ports:
+      - 8787:8787
