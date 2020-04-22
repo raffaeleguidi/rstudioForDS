@@ -1,7 +1,7 @@
 version: '2'
 services:
   rstudio:
-    image: raffaeleguidi/rstudio
+    image: raffaeleguidi/rstudio:2
     build: .
     hostname: rstudio
     environment:
